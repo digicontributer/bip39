@@ -558,7 +558,7 @@ bitcoinjs.bitcoin.networks.digibyte = {
   },
   pubKeyHash: 0x1e,
   scriptHash: 0x05,
-  wif: 0x80,
+  wif: 0x80 || 0x00,
 };
 
 bitcoinjs.bitcoin.networks.digitalcoin = {
